@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 本地密钥
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+
+# 工具缓存
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# 构建产物
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
+
+# 运行产物
+*.log
+
+# 助手项目记忆（不是应用代码）
+.workbuddy/
